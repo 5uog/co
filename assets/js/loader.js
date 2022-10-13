@@ -31,13 +31,13 @@ anime
     });
 
 TweenMax.to(".loader", 2.2, {
-    delay: 5,
+    delay: 2,
     top: "-100%",
     ease: Expo.easeInOut
 });
 
 TweenMax.to(".data", 2.2, {
-    delay: 5,
+    delay: 2,
     top: "-100%",
     ease: Expo.easeInOut
 })
