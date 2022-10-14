@@ -45,3 +45,11 @@ Phone: 51, Pc: 80 <br>
 PageSpeed Insights <br>
 Phone: 54, Pc: 81 <br>
 <2022.10.15 1:25:23> <br>
+
+PageSpeed Insights <br>
+Phone: 53, Pc: 80 <br>
+<2022.10.15 1:36:39> <br>
+
+PageSpeed Insights <br>
+Phone: 52, Pc: 80 <br>
+<2022.10.15 1:42:50> <br>
