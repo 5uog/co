@@ -12,3 +12,7 @@ Phone: 50, Pc: 78
 PageSpeed Insights
 Phone: 52, Pc: 89
 <2022.10.15 0:24:50>
+
+PageSpeed Insights
+Phone: 44, Pc: 75
+<2022.10.15 0:33:46>
