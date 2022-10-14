@@ -37,3 +37,7 @@ Phone: 44, Pc: 78 <br>
 PageSpeed Insights <br>
 Phone: 45, Pc: 78 <br>
 <2022.10.15 0:50:55> <br>
+
+PageSpeed Insights <br>
+Phone: 51, Pc: 80 <br>
+<2022.10.15 1:23:40> <br>
