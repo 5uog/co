@@ -30,28 +30,40 @@
     --scroll-bar-color: hsl(var(--hue), 4%, 85%);
     --scroll-thumb-color: hsl(var(--hue), 4%, 75%);
 
+    --bg-black-900: #151515;
+    --bg-black-100: #222222;
+    --bg-black-50: #393939;
+    --pl-border: #3c3c3c;
+    --text-black-900: #ffffff;
+    --text-black-700: #e9e9e9;
+    --main-color: #ff6666;
+    --main-color-alt: #f55250;
+
     /*===== font and typography =====*/
     --body-font: 'Outfit', sans-serif;
-
-    --biggest-font-size: 2rem;
+    --biggest-font-size: 2.5rem;
+    --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
-    --h3-font-size: 1.125rem;
+    --h3-font-size: 1rem;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
+    --tiny-font-size: .625rem;
 
     // responsive typography
     @media screen and (min-width: 968px){
         --biggest-font-size: 3rem;
-        --h2-font-size: 1.75rem;
+        --h1-font-size: 2.25rem;
+        --h2-font-size: 1.5rem;
         --h3-font-size: 1.25rem;
         --normal-font-size: 1rem;
-        --small-font-size: .875rem;
+        --small-font-size: .925rem;
         --smaller-font-size: .813rem;
     }
 
     /*===== font weight =====*/
-    --font-semi-bold: 600;
+    --font-medium: 500;
+    --font-semibold: 600;
     --font-bold: 700;
 
     /*===== margins =====*/
@@ -60,8 +72,10 @@
     --mb-1: 1rem;
     --mb-1-5: 1.5rem;
     --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
 
     /*==== z index ====*/
     --z-tooltip: 10;
     --z-fixed: 100;
+    --z-modal: 1000;
 }

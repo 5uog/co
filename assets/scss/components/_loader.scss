@@ -18,7 +18,7 @@
         font-family: "Noto Sans Japanese", sans-serif;
     }
 
-    & .intro {
+    & .preloader {
         top: 50%;
         left: 50%;
         position: absolute;
@@ -34,7 +34,7 @@
         }
 
         &-title .letter {
-            line-height: 1em;
+            line-height: 1rem;
             display: inline-block;
         }
     }

@@ -1,3 +1,4 @@
+// slick.js
 var sickPrimary = {
     autoplay: true,
     autoplaySpeed: 2400,

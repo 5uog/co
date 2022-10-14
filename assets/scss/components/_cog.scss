@@ -1,0 +1,64 @@
+/*===== cog =====*/
+.cog {
+    position: fixed;
+    right: 0;
+    top: 10px; /* era 60px */
+    padding: 15px;
+    width: 200px;
+    border-radius: 15px;
+    border: 1px solid var(--bg-black-50);
+    background-color: var(--bg-black-100);
+    transition: all 0.3s ease;
+    transform: translateX(100%);
+    z-index: 101;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    & i {
+        cursor: pointer;
+    }
+
+    &.open {
+        transform: translateX(-25px);
+    }
+
+    & .s-icon {
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        font-size: 20px;
+        background-color: var(--bg-black-100);
+        color: var(--text-black-900);
+        right: 100%;
+        border-radius: 50%;
+        border: 1px solid var(--bg-black-50);
+        margin-right: 25px;
+        cursor: pointer;
+
+        & i {
+            line-height: 40px;
+
+            /*&:hover {
+                color: var(--main-color);
+            }*/
+        }
+    }
+
+    & .cog-toggler {
+        top: 0px;
+    }
+
+    & .day-night {
+        top: 55px;
+    }
+
+    & h4 {
+        margin: 0 0 10px;
+        color: var(--text-black-700);
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+}
