@@ -18,12 +18,13 @@ anime.timeline().add({
 
 TweenMax.to(".loader", 2.2, {
     delay: 2,
-    top: "-100%",
+    top: "-120%",
     ease: Expo.easeInOut
 });
 
 TweenMax.to(".data", 2.2, {
     delay: 2,
-    top: "-100%",
+    top: "-120%",
     ease: Expo.easeInOut
 });
+
