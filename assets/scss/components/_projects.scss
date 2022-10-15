@@ -1,0 +1,119 @@
+/*===== projects =====*/
+.projects {
+    &-filter {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+
+        & button {
+            border: none;
+            background-color: transparent;
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: capitalize;
+            margin: 0 10px;
+            color: var(--text-black-900);
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            white-space: nowrap;
+            padding-bottom: 2px;
+            -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+
+            &.active {
+                position: relative;
+                color: var(--main-color);
+            }
+
+            &.active::before {
+                content: '';
+                position: absolute;
+                bottom: -.75rem;
+                left: 45%;
+                width: 5px;
+                height: 5px;
+                background-color: var(--main-color);
+                border-radius: 50%;
+            }
+        }
+    }
+
+    &-content {
+        padding-left: auto;
+        padding-right: auto;
+        row-gap: 0;
+    }
+
+    &-item {
+        animation: showItem 0.5s ease;
+
+        &.hide {
+            display: none;
+        }
+
+        &.show {
+            display: block;
+            animation: showItem .5s ease;
+        }
+    }
+
+    &-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        padding: 10px;
+
+        & .thumbnail {
+            height: 250px;
+            width: 350px;
+            border-radius: .5rem;
+            border: 2px solid var(--bg-black-50);
+            cursor: pointer;
+            overflow: hidden;
+
+            & img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                transition: .2s linear;
+            }
+
+            &:hover img {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+// animation for projects filter
+@-webkit-keyframes showItem {
+    0% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes showItem {
+    0% {
+        -webkit-transform: scale(0.8);
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+
+    }
+}
