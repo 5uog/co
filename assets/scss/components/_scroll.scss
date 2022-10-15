@@ -1,16 +1,16 @@
 /*===== scroll up =====*/
 .scrollup {
-    position: fixed;
-    display: inline-flex;
+    opacity: 1;
     right: 1rem;
     bottom: -20%;
     padding: .3rem;
+    position: fixed;
+    transition: .4s;
+    display: inline-flex;
     border-radius: .25rem;
+    z-index: var(--z-tooltip);
     border: 1px solid var(--bg-black-50);
     background-color: var(--bg-black-100);
-    z-index: var(--z-tooltip);
-    opacity: 1;
-    transition: .4s;
     
     &-icon {
         font-size: 1.25rem;

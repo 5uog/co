@@ -1,12 +1,12 @@
 /*===== home =====*/
 .home {
-    justify-content: center;
     height: 100vh;
     min-height: 100vh;
+    justify-content: center;
 
     &-container {
-        position: relative;
         row-gap: 4.5rem;
+        position: relative;
         /* padding-top: 2rem */
     }
 
@@ -16,10 +16,10 @@
     }
 
     &-education {
-        font-size: var(--small-font-size);
-        font-weight: var(--font-medium);
-        color: var(--text-black-700);
         margin-bottom: 2.5rem;
+        color: var(--text-black-700);
+        font-weight: var(--font-medium);
+        font-size: var(--small-font-size);
     }
 
     &-social {
@@ -49,39 +49,39 @@
 }
 
 .social-link {
-    background-color: var(--bg-black-100);
-    border: 1px solid var(--bg-black-50);
-    color: var(--text-black-900);
-    border-radius: 25%;
-    padding: .25rem;
     display: flex;
+    padding: .25rem;
     font-size: 1rem;
     cursor: pointer;
+    border-radius: 25%;
+    color: var(--text-black-900);
+    border: 1px solid var(--bg-black-50);
+    background-color: var(--bg-black-100);
 }
 
 .scroll-down {
-    position: absolute;
-    bottom: 5rem;
     left: 0;
     width: 100%;
+    bottom: 5rem;
+    position: absolute;
 }
 
 .mouse {
-    border: 2px solid var(--text-black-900);
-    display: block;
-    height: 1.75rem;
-    width: 1.25rem;
     margin: auto;
+    display: block;
+    width: 1.25rem;
+    height: 1.75rem;
     margin-top: .75rem;
     border-radius: 45%;
     position: relative;
+    border: 2px solid var(--text-black-900);
 
     &-wrapper {
-        font-size: var(--small-font-size);
-        display: block;
         margin: auto;
+        display: block;
         max-width: 100px;
         text-align: center;
+        font-size: var(--small-font-size);
 
         & span {
             color: var(--text-black-900);
@@ -90,13 +90,13 @@
 }
 
 .wheel {
-    background-color: var(--text-black-900);
-    border-radius: 50%;
+    left: 40%;
+    top: .5rem;
     width: .25rem;
     height: .25rem;
-    position: absolute;
-    top: .5rem;
-    left: 40%;
     display: block;
+    border-radius: 50%;
+    position: absolute;
     animation: mouse 2s linear infinite;
+    background-color: var(--text-black-900);
 }

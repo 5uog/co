@@ -1,5 +1,4 @@
 /*===== player =====*/
-
 .top-bar, .progress-area .song-timer, 
 .controls, .music-list .header, .music-list ul li {
     display: flex;
@@ -8,20 +7,20 @@
 }
 
 .img-area-center {
-    padding-top: 0.7rem;
     display: flex;
+    cursor: pointer;
+    overflow: hidden;
+    padding-top: 0.7rem;
     align-items: center;
     flex-direction: column;
-    overflow: hidden;
-    cursor: pointer;
 }
 
 .img-area {
     width: 150px;
     height: 150px;
-    border: 6px solid var(--main-color);
-    border-radius: 100%;
     text-align: center;
+    border-radius: 100%;
+    border: 6px solid var(--main-color);
 }
 
 .img-area img {
@@ -32,47 +31,47 @@
 
 .song-details {
     display: grid;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    place-items: center;
     font-size: 1rem;
-    color: var(--text-black-700);
+    align-items: center;
+    place-items: center;
+    flex-direction: column;
+    justify-content: center;
     text-transform: capitalize;
+    color: var(--text-black-700);
 }
 
 .song-details p {
-    color: var(--text-black-900);
-    text-transform: uppercase;
     font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--text-black-900);
 }
 
 .song-details .name {
     margin-top: 1rem;
     font-weight: 600;
-    font-size: var(--h4-font-size);
-    color: var(--text-black-700);
     text-transform: none;
+    color: var(--text-black-700);
+    font-size: var(--h4-font-size);
 }
 
 .song-details .artist {
-    color: var(--text-black-900);
-    text-transform: none;
     font-size: 0.8rem;
+    text-transform: none;
+    color: var(--text-black-900);
 }
 
 .progress-area {
-    margin-top: 1rem;
     height: 6px;
     width: 100%;
+    cursor: pointer;
+    margin-top: 1rem;
     border-radius: 50px;
     background: var(--bg-black-50);
-    cursor: pointer;
 }
 
 .progress-area .progress-bar {
-    height: inherit;
     width: 0%;
+    height: inherit;
     position: relative;
     border-radius: inherit;
     background: var(--text-black-900);
@@ -80,17 +79,17 @@
 
 .progress-bar::before {
     content: "";
-    position: absolute;
-    height: 12px;
-    width: 12px;
-    border-radius: 50%;
     top: 50%;
-    right: -5px;
     z-index: 2;
     opacity: 0;
+    right: -5px;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    border-radius: 50%;
+    background: inherit;
     pointer-events: none;
     transform: translateY(-50%);
-    background: inherit;
     transition: opacity 0.2s ease;
 }
 
@@ -100,8 +99,8 @@
 }
 
 .progress-area .song-timer {
-    color: var(--bg-black-900);
     margin-top: 2px;
+    color: var(--bg-black-900);
 }
 
 .song-timer span {
@@ -135,8 +134,8 @@
 }
 
 .controls .play-pause {
-    height: 54px;
     width: 54px;
+    height: 54px;
     display: flex;
     cursor: pointer;
     align-items: center;
@@ -144,31 +143,30 @@
 }
 
 .play-pause i {
-    height: 43px;
     width: 43px;
+    height: 43px;
     line-height: 43px;
+    position: absolute;
     text-align: center;
     background: inherit;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: var(--text-black-900);
-    position: absolute;
 }
 
 .music-list {
-    position: fixed;
-    border: 1px solid var(--bg-black-50);
-    background: var(--bg-black-100);
-    width: 200px;
-    right: 0;
     left: 0;
-    opacity: 0;
+    right: 0;
     bottom: 0;
-    pointer-events: none;
-    z-index: 5;
+    opacity: 0;
+    z-index: 101;
+    width: 196px;
     padding: 14px;
-    border-radius: 15px;
+    position: fixed;
     overflow: hidden;
+    border-radius: 10px;
+    pointer-events: none;
+    background: var(--bg-black-100);
 }
 
 .music-list.show {
@@ -183,29 +181,30 @@
 }
 
 .music-list ul {
-    color: var(--text-black-900);
-    margin: 10px 0;
-    max-height: 260px;
+    margin: 15px 0;
     overflow: auto;
+    max-height: 260px;
+    text-align: center;
+    color: var(--text-black-900);
 }
 
 .music-list ul::-webkit-scrollbar {
-    color: var(--text-black-900);
     width: 0px;
+    color: var(--text-black-900);
 }
 
 .music-list ul li {
-    list-style: none;
     display: flex;
     cursor: pointer;
-    padding-bottom: 10px;
+    list-style: none;
     margin-bottom: 5px;
+    padding-bottom: 10px;
     color: var(--text-black-900);
     border-bottom: 1px solid var(--pl-border);
 }
 
 .music-list ul li:last-child {
-    border-bottom: 0px;
+    border-bottom: 0;
 }
 
 .music-list ul li .row span {

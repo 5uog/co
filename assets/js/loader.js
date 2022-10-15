@@ -26,4 +26,4 @@ TweenMax.to(".data", 2.2, {
     delay: 2,
     top: "-100%",
     ease: Expo.easeInOut
-})
+});

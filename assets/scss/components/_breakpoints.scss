@@ -11,9 +11,9 @@
     }
 
     .projects-content {
-        justify-content: center;
         padding-left: 1rem;
         padding-right: 1rem;
+        justify-content: center;
     }
 }
   
@@ -50,8 +50,8 @@
   
 @media screen and (min-width: 767px) {
     .grid-projects {
-        display: grid;
         gap: 1.25rem;
+        display: grid;
     }
 
     .clans-container {

@@ -1,12 +1,12 @@
 /* reusable css classes, layout */
 .container {
-    max-width: 768px;
     margin: auto;
+    max-width: 768px;
 }
 
 .grid {
-    display: grid;
     gap: 1.25rem;
+    display: grid;
 }
 
 .row {
@@ -31,15 +31,15 @@
     }
 
     &-title {
-        font-size: var(--h2-font-size);
-        color: var(--text-black-900);
         margin-bottom: 2rem;
+        color: var(--text-black-900);
+        font-size: var(--h2-font-size);
     }
 
     &-subtitle {
         display: block;
-        font-size: var(--smaller-font-size);
         color: var(--text-black-700);
+        font-size: var(--smaller-font-size);
     }
 }
 
