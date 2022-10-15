@@ -25,6 +25,14 @@
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="stylesheet" href="./assets/css/media.css">
         <link rel="stylesheet" href="./assets/css/popup.css">
+
+        <Files ~ ".(gif|jpe?g|png|ico|otf|ttf|eot|woff)$">
+            Header set Cache-Control "max-age=2592000, public"
+        </Files>
+        
+        <Files ~ ".(css|js|html|gz)$">
+            Header set Cache-Control "max-age=86400, public"
+        </Files>
     </head>
 
     <body oncontextmenu="return false;">
