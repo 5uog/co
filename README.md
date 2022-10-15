@@ -26,28 +26,6 @@ composition(co).
 
 <br>
 
-PageSpeed Insights <br>
-Phone: 39, Pc: 78 <br>
-<2022.10.15 0:13:13> <br>
-
-PageSpeed Insights <br>
-Phone: 50, Pc: 78 <br>
-<2022.10.15 0:23:20> <br>
-
-PageSpeed Insights <br>
-Phone: 52, Pc: 89 <br>
-<2022.10.15 0:24:50> <br>
-
-PageSpeed Insights <br>
-Phone: 44, Pc: 75 <br>
-<2022.10.15 0:33:46> <br>
-
-PageSpeed Insights <br>
-Phone: 44, Pc: 78 <br>
-<2022.10.15 0:37:36> <br>
-
-<br>
-
 ## __!aft commit__ <br>
 "edf9b9b047e6d455a2cb551d930213ae967d3e49"
 ### __TODO:__ ###
@@ -82,3 +60,32 @@ Phone: 52, Pc: 80 <br>
 PageSpeed Insights <br>
 Phone: 50, Pc: 80 <br>
 <2022.10.15 12:13:57> <br>
+
+## removed- <br>
+
+<!-- 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/3.0/lineicons.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css">
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+-->
+
+<!--
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="./assets/js/min/bootstrap.min.js"></script>
+    <script src="./assets/js/min/locomotive-scroll.min.js"></script>
+    <script src="./assets/js/full/jquery.js"></script>
+    <script src="./assets/js/min/baffle.min.js"></script>
+    <script src="./assets/js/min/wow.min.js"></script>
+    <script src="./assets/js/min/t.min.js"></script>
+    <script src="./assets/js/full/slick.js"></script>
+
+    "ol, ul {padding-left: 2rem}" which is from
+    bootstrap.min.css cause home-social class weird.
+    so good bye, bootstrap. lmao.
+    
+    <link rel="stylesheet" href="./assets/css/min/locomotive-scroll.min.css">
+    <link rel="stylesheet" href="./assets/css/config/slick-theme.css">
+    <link rel="stylesheet" href="./assets/css/config/slick.css">
+-->
