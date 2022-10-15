@@ -1,4 +1,5 @@
 /*===== player =====*/
+
 .top-bar, .progress-area .song-timer, 
 .controls, .music-list .header, .music-list ul li {
     display: flex;

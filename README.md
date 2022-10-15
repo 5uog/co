@@ -78,3 +78,7 @@ Phone: 53, Pc: 80 <br>
 PageSpeed Insights <br>
 Phone: 52, Pc: 80 <br>
 <2022.10.15 1:42:50> <br>
+
+PageSpeed Insights <br>
+Phone: 50, Pc: 80 <br>
+<2022.10.15 12:13:57> <br>
