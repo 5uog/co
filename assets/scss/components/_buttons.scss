@@ -10,12 +10,6 @@
 
     &:hover {
         color: var(--main-color);
-        /*
-        animation-duration: 0.3s;
-        animation-name: button-push;
-        animation-iteration-count: 1;
-        animation-timing-function: linear;
-        */
     }
 
     &--ghost {
@@ -29,12 +23,6 @@
         &:hover {
             color: var(--main-color);
             border: 1px solid var(--main-color-alt);
-            /*
-            animation-duration: 0.3s;
-            animation-name: button-push;
-            animation-iteration-count: 1;
-            animation-timing-function: linear;
-            */
         }
     }
 }

@@ -242,7 +242,11 @@ closemoreMusic.addEventListener("click", () => {
 
 const ulTag = wrapper.querySelector("ul");
 for (let i = 0; i < allMusic.length; i++) {
-    let liTag = `<li li-index="${i + 1}"><div class="row"><span>${allMusic[i].name}</span></div><span id="${allMusic[i].src}" class="audio-duration"></span><audio class="${allMusic[i].src}" src="./assets/audio/${allMusic[i].src}.mp3"></audio></li>`;
+    let liTag = `<li li-index="${i + 1}">
+    <div class="row"><span>${allMusic[i].name}</span></div>
+    <span id="${allMusic[i].src}" class="audio-duration"></span>
+    <audio class="${allMusic[i].src}" src="./assets/audio/${allMusic[i].src}.mp3"></audio>
+    </li>`;
     
     ulTag.insertAdjacentHTML("beforeend", liTag);
     let liAudioDuartionTag = ulTag.querySelector(`#${allMusic[i].src}`);
